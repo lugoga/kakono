@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1583695279866.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "A7BCCF95",
+    "lastKnownWriteTime" : 1583724695,
+    "last_content_update" : 1583724695265,
+    "path" : "E:/blogs/sapphire/config.toml",
+    "project_path" : "config.toml",
+    "properties" : {
+        "cursorPosition" : "83,21",
+        "scrollLine" : "64"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "toml"
+}

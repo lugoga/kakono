@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1583698209350.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "8E7938F4",
+    "lastKnownWriteTime" : 1583727861,
+    "last_content_update" : 1583727861367,
+    "path" : "E:/blogs/sapphire/content/post/2020-03-08-northeast-monsoon-season-oceanographic-insitu-data-collection.Rmd",
+    "project_path" : "content/post/2020-03-08-northeast-monsoon-season-oceanographic-insitu-data-collection.Rmd",
+    "properties" : {
+        "cursorPosition" : "8,30",
+        "last_setup_crc32" : "D78B330A61d1cf3",
+        "scrollLine" : "2"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

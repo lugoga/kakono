@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Masumbuko Semba on SAPPHIRE</title>
+    <link>/author/masumbuko-semba/</link>
+    <description>Recent content in Masumbuko Semba on SAPPHIRE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Mar 2020 13:50:46 +0200</lastBuildDate>
+    
+	<atom:link href="/author/masumbuko-semba/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sapphire in the field compaign</title>
+      <link>/post/mie/</link>
+      <pubDate>Sun, 08 Mar 2020 13:50:46 +0200</pubDate>
+      
+      <guid>/post/mie/</guid>
+      <description>In the Northeast monsoon season of 2020 the field component of an experiment designed to observe oceanographic parameters began in the Pemba Channel. This campaign was done by team from the Institute of Marine Sciences of the University of Dar es Salaam through the support of SAPPHIRE project.
+The field data collection aimed to collect physical and biological data that can later be combined with meteorological and other oceanographic observations acquired through satellite.</description>
+    </item>
+    
+    <item>
+      <title>Northeast Monsoon Season Oceanographic Insitu Data Collection</title>
+      <link>/post/northeast-monsoon-season-oceanographic-insitu-data-collection/</link>
+      <pubDate>Fri, 06 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/northeast-monsoon-season-oceanographic-insitu-data-collection/</guid>
+      <description>On 3rd March, 2020, a team of researcher led by Prof. Nthahondi Nyandwi started a three day oceanographic data gathering in the Pemba Channel. The team launched an ADCP equipment from Kigombe, to measure ocean current’s speed and direction.
+Figure 1: Ocean current measured from ADCP</description>
+    </item>
+    
+  </channel>
+</rss>

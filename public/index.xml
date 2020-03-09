@@ -1,0 +1,45 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SAPPHIRE</title>
+    <link>/</link>
+    <description>Recent content on SAPPHIRE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Mar 2020 13:50:46 +0200</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Posts</title>
+      <link>/post/</link>
+      <pubDate>Sun, 08 Mar 2020 13:50:46 +0200</pubDate>
+      
+      <guid>/post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Wed, 07 Jun 2017 15:36:00 +0530</pubDate>
+      
+      <guid>/about/</guid>
+      <description>UN Environment agrees to co-operate with IMS with respect to the project entitled “The Western Indian Ocean Large Marine Ecosystems Strategic Action Programme Policy Harmonisation and Institutional Reforms (WIO LME SAPPHIRE)”. The SAPPHIRE project is implemented by UNDP and executed by the Nairobi Convention Secretariat with the funding from the Global Environmental Facility (GEF).
+The project aims to support and assist the appropriate and formally mandated government institutions and intergovernmental bodies in the region to implement related activities in order to deliver the SAP and to ensure sustainability of efforts and actions toward long-term management of WIO LMEs as well as the sustainability of associated institutional arrangements and partnerships.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/contact/</link>
+      <pubDate>Wed, 07 Jun 2017 15:36:00 +0530</pubDate>
+      
+      <guid>/contact/</guid>
+      <description>Principal Researcher: Prof Ntahondi Nyandwi
+Institute: Institute of Marine Sciences,
+Street: Mizingani Road,
+Address: P.0 Box 668,
+City: Zanzibar, Tanzania.
+Email: Email</description>
+    </item>
+    
+  </channel>
+</rss>

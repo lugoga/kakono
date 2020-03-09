@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>oceanographic on SAPPHIRE</title>
+    <link>/categories/oceanographic/</link>
+    <description>Recent content in oceanographic on SAPPHIRE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Mar 2020 13:50:46 +0200</lastBuildDate>
+    
+	<atom:link href="/categories/oceanographic/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sapphire in the field compaign</title>
+      <link>/post/mie/</link>
+      <pubDate>Sun, 08 Mar 2020 13:50:46 +0200</pubDate>
+      
+      <guid>/post/mie/</guid>
+      <description>In the Northeast monsoon season of 2020 the field component of an experiment designed to observe oceanographic parameters began in the Pemba Channel. This campaign was done by team from the Institute of Marine Sciences of the University of Dar es Salaam through the support of SAPPHIRE project.
+The field data collection aimed to collect physical and biological data that can later be combined with meteorological and other oceanographic observations acquired through satellite.</description>
+    </item>
+    
+  </channel>
+</rss>
