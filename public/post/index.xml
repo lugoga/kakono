@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on SAPPHIRE</title>
+    <title>Posts on sapphire</title>
     <link>/post/</link>
-    <description>Recent content in Posts on SAPPHIRE</description>
+    <description>Recent content in Posts on sapphire</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 08 Mar 2020 13:50:46 +0200</lastBuildDate>
@@ -27,8 +27,9 @@ The field data collection aimed to collect physical and biological data that can
       <pubDate>Fri, 06 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>/post/northeast-monsoon-season-oceanographic-insitu-data-collection/</guid>
-      <description>On 3rd March, 2020, a team of researcher led by Prof. Nthahondi Nyandwi started a three day oceanographic data gathering in the Pemba Channel. The team launched an ADCP equipment from Kigombe, to measure ocean current’s speed and direction.
-Figure 1: Ocean current measured from ADCP</description>
+      <description>On 3rd March, 2020, a team of researcher led by Prof. Nthahondi Nyandwi1 started a three day oceanographic data gathering in the Pemba Channel. The team launched an ADCP equipment from Kigombe, to measure ocean current’s speed and direction.
+Figure 1: Ocean current measured from ADCPFrom Institute of Marine Sciences↩
+</description>
     </item>
     
   </channel>

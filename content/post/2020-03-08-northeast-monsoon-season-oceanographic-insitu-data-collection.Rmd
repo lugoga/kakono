@@ -22,10 +22,10 @@ require(sf)
 require(leaflet)
 ```
 
-On 3^rd^ March, 2020, a team of researcher led by Prof. Nthahondi Nyandwi started a three day oceanographic data gathering in the Pemba Channel. The team launched an ADCP equipment from Kigombe, to measure ocean current's speed and direction.  
+On 3^rd^ March, 2020, a team of researcher led by Prof. Nthahondi Nyandwi^[From Institute of Marine Sciences] started a three day oceanographic data gathering in the Pemba Channel. The team launched an ADCP equipment from Kigombe, to measure ocean current's speed and direction.  
 
 ```{r fig1, fig.cap="Ocean current measured from ADCP", fig.height=3.0, fig.width=8.5}
-transect1 = readxl::read_excel("e:/Data Manipulation/Kagera/data/adp/Day 1/Matlab/Transect No1_LB-RB.xlsx", sheet = 3)
+transect1 = readxl::read_excel("e:/Data Manipulation/Kagera/data/adp/Day 1/Matlab/transect1.xlsx", sheet = 3)
 
 transect1 = transect1%>% 
   na_if(-9999)  %>% 
@@ -44,4 +44,32 @@ ggplot() +
   guides(fill = guide_colorbar(title = expression(Current~speed~(ms^{-1})),direction = "vertical", title.position = "right", title.hjust = .5, nbin = 12, draw.ulim = TRUE, reverse = TRUE,raster = FALSE,draw.llim = TRUE,barheight = unit(5, "cm"), title.theme = element_text(angle = 90)))
 ```
 
+```{r fig.height=3.0, fig.width=8.5}
+
+transect1 %>% filter(!is.na(speed) & depth >= .75 & depth <= 3.0) %>%
+  ggplot(aes(x = distance, y = depth)) +
+  geom_contour_filled(aes(z = speed)) +
+  # geom_contour(aes(z = speed), col = "lightgray")+
+  scale_y_reverse(breaks = seq(0,4,.3))+
+  # scale_fill_gradientn(colours = oce::oce.colors9A(120))+
+  coord_cartesian(expand = FALSE) +
+  cowplot::theme_cowplot()+
+  labs(x = "Distance from edge [m]", y = "Water depth [m]") 
+
+
+# +
+  # guides(fill = guide_colorbar(title = expression(Current~speed~(ms^{-1})),direction = "vertical", title.position = "right", title.hjust = .5, nbin = 12, draw.ulim = TRUE, reverse = TRUE,raster = FALSE,draw.llim = TRUE,barheight = unit(5, "cm"), title.theme = element_text(angle = 90)))
+  
+```
+
+```{r, eval=FALSE}
+
+require(oce)
+
+aa = read.adp("c:/Users/Semba/Documents/IIOE2/adcp/ADCP_DATA/2007_05/M72-5_OS75011_000000.ENR")
+
+aa %>% summary()
+
+aa %>% subset(distance < 100)%>% oce::adpEnsembleAverage(n = 2) %>% oce::plot()
+```
 
