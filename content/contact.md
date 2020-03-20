@@ -6,16 +6,16 @@ noprevnext: true
 title: Contact
 ---
 
-**Principal Researcher**: Prof Ntahondi Nyandwi
+**Principal Researcher**: Dr. Ismael Kimirei
 
-**Institute**: Institute of Marine Sciences,
+**Institute**: Tanzania Fisheries Research Institute,
 
-**Street**: Mizingani Road,
+**Street**: Kunduchi,
 
-**Address**: P.0 Box 668,
+**Address**: P.0 Box 7500,
 
-**City**: Zanzibar, Tanzania.
+**City**: Dar es Salaam, Tanzania.
 
-**Email**: [Email](ntahondinyandwi@gmail.com)
+**Email**: [Email](kimerei@tafiri.go.tz)
 
 

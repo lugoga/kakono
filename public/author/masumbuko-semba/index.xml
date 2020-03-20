@@ -1,35 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Masumbuko Semba on sapphire</title>
+    <title>Masumbuko Semba on kakono</title>
     <link>/author/masumbuko-semba/</link>
-    <description>Recent content in Masumbuko Semba on sapphire</description>
+    <description>Recent content in Masumbuko Semba on kakono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Mar 2020 13:50:46 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 11 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/author/masumbuko-semba/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Sapphire in the field compaign</title>
-      <link>/post/mie/</link>
-      <pubDate>Sun, 08 Mar 2020 13:50:46 +0200</pubDate>
+      <title>Post processing ADCP data</title>
+      <link>/post/post-processing-adcp-data/</link>
+      <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/mie/</guid>
-      <description>In the Northeast monsoon season of 2020 the field component of an experiment designed to observe oceanographic parameters began in the Pemba Channel. This campaign was done by team from the Institute of Marine Sciences of the University of Dar es Salaam through the support of SAPPHIRE project.
-The field data collection aimed to collect physical and biological data that can later be combined with meteorological and other oceanographic observations acquired through satellite.</description>
+      <guid>/post/post-processing-adcp-data/</guid>
+      <description>To-date no standardized technique exists for combining velocity data from multiple ADCP transects to produce a composite depiction of three-dimensional velocity fields (Figure 1. To address this important need, the a new software tool has been developed, the Velocity Mapping Toolbox (VMT), for processing, analyzing, and displaying velocity data collected along multiple ADCP transects. VMT can be run using either the Matlab® source code or compiled standalone executables.
+Users with access to Matlab® are encouraged to run the source code for the most versatility.</description>
     </item>
     
     <item>
-      <title>Northeast Monsoon Season Oceanographic Insitu Data Collection</title>
-      <link>/post/northeast-monsoon-season-oceanographic-insitu-data-collection/</link>
-      <pubDate>Fri, 06 Mar 2020 00:00:00 +0000</pubDate>
+      <title>The bathmetry measurement begins with base stations</title>
+      <link>/post/the-bathmetry-measurement-begins-with-base-stations/</link>
+      <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/northeast-monsoon-season-oceanographic-insitu-data-collection/</guid>
-      <description>On 3rd March, 2020, a team of researcher led by Prof. Nthahondi Nyandwi1 started a three day oceanographic data gathering in the Pemba Channel. The team launched an ADCP equipment from Kigombe, to measure ocean current’s speed and direction.
-Figure 1: Ocean current measured from ADCPFrom Institute of Marine Sciences↩
-</description>
+      <guid>/post/the-bathmetry-measurement-begins-with-base-stations/</guid>
+      <description>ASSEMBLYOnce arriving on site, set up is relatively quick. The best place to park and the best point to launch the boat is scoped on foot. This is usually provided by maintenance access ways which are pathways built into pond designs to allow for machinery to access the pond for dredging. The boat is assembled near the launch point into the pond. This requires attaching the propellers to the rear of the boat, connecting and strapping in the boat batteries, positioning the ADCP into the holder in the centre of the boat, and connecting the cables to the Program Control Module (PCM), radio and GPS.</description>
     </item>
     
   </channel>

@@ -1,42 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on sapphire</title>
+    <title>Categories on kakono</title>
     <link>/categories/</link>
-    <description>Recent content in Categories on sapphire</description>
+    <description>Recent content in Categories on kakono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Mar 2020 13:50:46 +0200</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>coastal</title>
-      <link>/categories/coastal/</link>
-      <pubDate>Sun, 08 Mar 2020 13:50:46 +0200</pubDate>
-      
-      <guid>/categories/coastal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>marine</title>
-      <link>/categories/marine/</link>
-      <pubDate>Sun, 08 Mar 2020 13:50:46 +0200</pubDate>
-      
-      <guid>/categories/marine/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>oceanographic</title>
-      <link>/categories/oceanographic/</link>
-      <pubDate>Sun, 08 Mar 2020 13:50:46 +0200</pubDate>
-      
-      <guid>/categories/oceanographic/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

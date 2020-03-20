@@ -1,20 +1,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>sapphire</title>
+    <title>kakono</title>
     <link>/</link>
-    <description>Recent content on sapphire</description>
+    <description>Recent content on kakono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Mar 2020 13:50:46 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 11 Mar 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Posts</title>
       <link>/post/</link>
-      <pubDate>Sun, 08 Mar 2020 13:50:46 +0200</pubDate>
+      <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>/post/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/about/</link>
+      <pubDate>Wed, 07 Jun 2017 15:36:00 +0530</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Introduction The Government of Tanzania wishes to construct the 87 MW Kakono HPP in north-western Tanzania near the border with Uganda and 90km west of Bukoba located on the eastern shore of Lake Victoria (Figure 1). The dam site is approximately 36 km upstream of Kyaka Ferry (in a direct line). The HPP involves a 38 m high dam wall extending 1.5 km across the Kagera River, and a 220kV transmission line and access road (the Project).</description>
     </item>
     
     <item>
@@ -32,18 +41,8 @@
       <pubDate>Wed, 07 Jun 2017 15:36:00 +0530</pubDate>
       
       <guid>/team/</guid>
-      <description>The resarch group is led by Prof Ntahondi Nyandwi. Other researchers in the team include:
- Dr. Yohana Shaghude Dr. Magareth Kyewalyanga Mr. Masumbuko Semba  </description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Wed, 07 Jun 2017 15:36:00 +0530</pubDate>
-      
-      <guid>/about/</guid>
-      <description>UN Environment agrees to co-operate with IMS with respect to the project entitled “The Western Indian Ocean Large Marine Ecosystems Strategic Action Programme Policy Harmonisation and Institutional Reforms (WIO LME SAPPHIRE)”. The SAPPHIRE project is implemented by UNDP and executed by the Nairobi Convention Secretariat with the funding from the Global Environmental Facility (GEF).
-The project aims to support and assist the appropriate and formally mandated government institutions and intergovernmental bodies in the region to implement related activities in order to deliver the SAP and to ensure sustainability of efforts and actions toward long-term management of WIO LMEs as well as the sustainability of associated institutional arrangements and partnerships.</description>
+      <description>The resarch group is led by Dr Ismael Kimirei. Other researchers in the team include:
+ Mr. Juma Charles &amp;mdash; Land Surveyor Mr. Paschal Qutaw &amp;mdash; Hyrology Engineer Mr. Masumbuko Semba&amp;mdash;Data Scientist  </description>
     </item>
     
     <item>
@@ -52,11 +51,11 @@ The project aims to support and assist the appropriate and formally mandated gov
       <pubDate>Wed, 07 Jun 2017 15:36:00 +0530</pubDate>
       
       <guid>/contact/</guid>
-      <description>Principal Researcher: Prof Ntahondi Nyandwi
-Institute: Institute of Marine Sciences,
-Street: Mizingani Road,
-Address: P.0 Box 668,
-City: Zanzibar, Tanzania.
+      <description>Principal Researcher: Dr. Ismael Kimirei
+Institute: Tanzania Fisheries Research Institute,
+Street: Kunduchi,
+Address: P.0 Box 7500,
+City: Dar es Salaam, Tanzania.
 Email: Email</description>
     </item>
     

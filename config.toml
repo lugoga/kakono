@@ -1,5 +1,5 @@
 baseURL = "https://sapphire-tz.netlify.com/"
-title = "sapphire"
+title = "kakono"
 subtitle = "We believe in Data for Marine and Coastal Science Management"
 languageCode = "en-us"
 # preservetaxonomynames = true
@@ -13,7 +13,7 @@ ignoreFiles  = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [params]
     # Tell me who you are
     author = "Masumbuko Semba"
-    site_description = "Data First for Coastal and Marine Management"
+    site_description = "Bring the bathmetry of River Kagera on the fingertips"
     copyright  = "Copyright"
 #    avatar = "avatar.png"
     logo = "sapphire_logo.png"

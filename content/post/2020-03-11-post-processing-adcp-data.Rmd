@@ -1,15 +1,13 @@
 ---
+title: Post processing ADCP data
 author: Masumbuko Semba
-date: '2020-03-06'
 slider: true
-slug: northeast-monsoon-season-oceanographic-insitu-data-collection
+date: '2020-03-11'
+slug: post-processing-adcp-data
 categories: []
-tags:
-  - sapphire
-banner: banners/sapphire_1.png
-title: Northeast Monsoon Season Oceanographic Insitu Data Collection
+tags: []
+banner: banners/kakono9.jpg
 ---
-
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, comment = "")
@@ -20,9 +18,13 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, comment = 
 require(tidyverse)
 require(sf)
 require(leaflet)
+
 ```
 
-On 3^rd^ March, 2020, a team of researcher led by Prof. Nthahondi Nyandwi^[From Institute of Marine Sciences] started a three day oceanographic data gathering in the Pemba Channel. The team launched an ADCP equipment from Kigombe, to measure ocean current's speed and direction.  
+To-date no standardized technique exists for combining velocity data from multiple ADCP transects to produce a composite depiction of three-dimensional velocity fields (Figure \@ref(fig:fig1). To address this important need, the a new software tool has been developed, the Velocity Mapping Toolbox (VMT), for processing, analyzing, and displaying velocity data collected along multiple ADCP transects. VMT can be run using either the Matlab® source code or compiled standalone executables. 
+
+Users with access to Matlab® are encouraged to run the source code for the most versatility. However, some older versions of Matlab®, for example version 7.0.4, are not able to run GUIs like VMT that are created with newer versions of Matlab®. In this case, run the executables rather than the source code. The VMT and utility executables require the Matlab® Runtime Library 2012a 32 bit1 to be installed prior to running. Input to the Matlab®-based toolbox consists of ASCII output files from the Teledyne RD Instruments® ADCP data-collection software.
+
 
 ```{r fig1, fig.cap="Ocean current measured from ADCP", fig.height=3.0, fig.width=8.5}
 transect1 = readxl::read_excel("e:/Data Manipulation/Kagera/data/adp/Day 1/Matlab/transect1.xlsx", sheet = 3)
@@ -44,7 +46,7 @@ ggplot() +
   guides(fill = guide_colorbar(title = expression(Current~speed~(ms^{-1})),direction = "vertical", title.position = "right", title.hjust = .5, nbin = 12, draw.ulim = TRUE, reverse = TRUE,raster = FALSE,draw.llim = TRUE,barheight = unit(5, "cm"), title.theme = element_text(angle = 90)))
 ```
 
-```{r fig.height=3.0, fig.width=8.5}
+```{r fig.height=3.0, fig.width=8.5, eval=FALSE}
 
 transect1 %>% filter(!is.na(speed) & depth >= .75 & depth <= 3.0) %>%
   ggplot(aes(x = distance, y = depth)) +
@@ -61,15 +63,3 @@ transect1 %>% filter(!is.na(speed) & depth >= .75 & depth <= 3.0) %>%
   # guides(fill = guide_colorbar(title = expression(Current~speed~(ms^{-1})),direction = "vertical", title.position = "right", title.hjust = .5, nbin = 12, draw.ulim = TRUE, reverse = TRUE,raster = FALSE,draw.llim = TRUE,barheight = unit(5, "cm"), title.theme = element_text(angle = 90)))
   
 ```
-
-```{r, eval=FALSE}
-
-require(oce)
-
-aa = read.adp("c:/Users/Semba/Documents/IIOE2/adcp/ADCP_DATA/2007_05/M72-5_OS75011_000000.ENR")
-
-aa %>% summary()
-
-aa %>% subset(distance < 100)%>% oce::adpEnsembleAverage(n = 2) %>% oce::plot()
-```
-

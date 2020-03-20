@@ -6,11 +6,11 @@ noprevnext: true
 title: 
 ---
 
-The resarch group is led by **Prof Ntahondi Nyandwi**. Other researchers in the team include:
+The resarch group is led by **Dr Ismael Kimirei**. Other researchers in the team include:
 
-+ Dr. Yohana Shaghude
-+ Dr. Magareth Kyewalyanga
-+ Mr. Masumbuko Semba
++ Mr. Juma Charles --- Land Surveyor
++ Mr. Paschal Qutaw --- Hyrology Engineer
++ Mr. Masumbuko Semba---Data Scientist
 
 
 
